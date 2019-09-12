@@ -13,6 +13,7 @@ def find_max_profit(prices):
     # enumerate() starts at 0 and attaches an automatic counter while it iterated through a loop!!!
     for i, price in enumerate(prices):
         # print(i, price)
+        # skip i = 0 (the first index), must buy before selling. start with a negative number
         # if the price minus the min price (first number after BUY) is greater than profit, it becomes the max_profit, if the price is less than the min_price, it becomes the min_price
         if i != 0:
             if price - min_price > max_profit:
@@ -20,7 +21,6 @@ def find_max_profit(prices):
             if price < min_price:
                 min_price = price
     return max_profit
-
 
 # find_max_profit([1050, 270, 1540, 3800, 2])
 

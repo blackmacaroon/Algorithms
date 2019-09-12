@@ -1,9 +1,10 @@
 #!/usr/bin/python
-
+#recipes arrive in the form of a dictionary
+#ingredients arrive in the form of a dictionary
 import math
 
 def recipe_batches(recipe, ingredients):
-  pass 
+  
 
 
 if __name__ == '__main__':
