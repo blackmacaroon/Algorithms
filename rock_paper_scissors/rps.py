@@ -1,9 +1,13 @@
 #!/usr/bin/python
-
+# "all possible permutations" means we need RECURSION
 import sys
+def rps_recursion(l, )
 
 def rock_paper_scissors(n):
   pass 
+
+
+  #return list of lists cntaining strings length = n
 
 
 if __name__ == "__main__":
