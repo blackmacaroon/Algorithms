@@ -17,7 +17,7 @@ def recipe_batches(recipe, ingredients):
       if ingredients[amount] < recipe[amount]:
         return 0
       else:
-        temp = ingredients[amount] // recipe[amount]
+        temp = ingredients[amount] // recipe[amount]   #flooring division aka integer division (round down to whole number - without remainders)
         if batches is None:       #solves the int None value issue
           batches = temp
         if temp < batches:

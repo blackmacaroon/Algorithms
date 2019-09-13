@@ -1,13 +1,18 @@
 #!/usr/bin/python
 # "all possible permutations" means we need RECURSION
 import sys
-def rps_recursion(l, )
 
 def rock_paper_scissors(n):
-  pass 
+  #list my choices, list of strings 
+  draw = ["rock", "paper", "scissors"]
+  #recursive funtction calls itself until base case is met
+  def rps_recursion()  #what does it take in?
+    if n == 0:   #base case, define the moment we want it to stop
+      return 0
 
 
-  #return list of lists cntaining strings length = n
+
+  #return list of lists containing strings length = n
 
 
 if __name__ == "__main__":
