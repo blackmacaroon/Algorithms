@@ -3,16 +3,21 @@
 import sys
 
 def rock_paper_scissors(n):
-  #list my choices, list of strings 
+  #list my choices, strings 
+  #new empty list for lists of strings
   draw = ["rock", "paper", "scissors"]
+  sequence = []
+
+
   #recursive funtction calls itself until base case is met
-  def rps_recursion()  #what does it take in?
+  def rps_recursion(n, arr)  #what does it take in?
     if n == 0:   #base case, define the moment we want it to stop
-      return 0
+      return sequence
 
 
 
-  #return list of lists containing strings length = n
+  return sequence
+  #return list of lists (with a length of n) containing strings
 
 
 if __name__ == "__main__":
